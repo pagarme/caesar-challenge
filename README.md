@@ -8,7 +8,7 @@ Para gerar uma API_KEY nova, basta fazer um GET na rota [https://challenge.pagar
   GET /key?email=teste@teste.com HTTP/1.1
   Host: challenge.pagar.me
 ```
-Lembnrando que a API_KEY que você receberá desse request está criptografada!
+Lembrando que a API_KEY que você receberá desse request está criptografada!
 
 Como uma pessoa que desenvolve, a sua missão é descriptografá-la para conseguir fazer login em nossos sistemas, de maneira **automatizada**, para que qualquer pessoa consiga reverter a própria chave de API utilizando a sua ferramenta.
 
